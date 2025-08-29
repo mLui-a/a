@@ -1,5 +1,9 @@
+
  *{
     margin: 0%;
+ }
+ body{
+    background-color: #948979;
  }
 section{
     background-color: #222831;
@@ -18,10 +22,10 @@ section{
  }
 .img1{
     position: absolute;
-        top: 2%;
+        top: 1px;
         right:60vh;
     translate: (-50%,-50%);
-    width:1090px;
+    width:1110px;
     height: auto;
  }
 #bloco_a{
@@ -42,10 +46,10 @@ section{
  } 
 .img2{
     position: absolute;
-        top: 5%;
+        top: 1%;
         right:20vh;
         translate: (-50%,-50%);
-        width:487px;
+        width:480px;
         border-radius: 5%;
  } 
 #bloco_b{
@@ -70,9 +74,9 @@ section{
     translate: (-50%,-50%); 
     background-color: #948979;
 }
-#c{
+form{
     position: absolute;
-        top: 200%;
+        top: 20%;
         right: 50%;
         translate: (-50%,-50%);
         width:550px;
@@ -116,8 +120,6 @@ button:hover{
 }
 
 
-
-
 /*
 #page>div (modifica uma tag presente dentro)
 position:absolute (nao depende de outro elemento para se posicionar)
@@ -126,4 +128,5 @@ section (divide)
 display:inline-block (nao linha)
 :hover (muda o elemento qundo passar o maouse)
 @media (muda sla oq) 
+
 */
